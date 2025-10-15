@@ -1,0 +1,14 @@
+JavaBeans In JSP
+1. JavaBeans - Is an object or java class in jsp that has no main function.
+2. JavaBeans is used to create objects for sharing among different pages or applications
+3. To create an object to be shared its class must be a javabeans coponent
+4. JavaBeans has the following features:
+	1. The class is public
+	2. The class has a public constructor with no arguments
+	3. The class is serializable (Not necessary in JSP)
+5. To create an instance for a JavaBeans Component in JSP. The following syntax is used :
+	<jsp:useBean id = "objectName"
+	scope="scopeAttribute"
+	class="Package.ClassName"></jsp:useBean>
+	
+	<% className obj=new className()%>
